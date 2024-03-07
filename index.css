@@ -1,0 +1,739 @@
+
+/*==== universal  ====*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+
+/*==== first div starts from here ====*/
+.free-shipping{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 35px;
+    border-bottom: 1px solid black;
+}
+.free-shipping p{
+    font-size: small;
+    color: rgb(120, 120, 120);
+    margin:0px 30px;
+}
+.select-option select{
+    color: rgb(120, 120, 120);
+}
+.first-icon{
+     margin-left: 30px;
+}
+
+.first-icon ,i{
+    padding: 5px;
+    color: rgb(114, 113, 113);
+}
+
+.select-option{
+    margin: 20px;
+}
+
+.select-option select{
+    border: none;
+}
+/*==== first div end here ====*/
+
+
+/*==== header starts from here ====*/
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    border-bottom: 1px solid black;
+}
+
+.header h1{
+    color: rgb(253, 93, 120);
+    font-size:2.5em;
+    margin-left: 20px;
+}
+
+.search-bar{
+    border: 1px solid rgb(177, 175, 175);
+    border-radius: 3px;
+}
+
+header .search-bar input{
+    border: none;
+    width: 50vw;
+    padding: 5px;
+    outline: none;
+}
+
+.header .second-icon{
+    margin-right:20px ;
+}
+/*===== header ends here =====*/
+
+/*==== navigation menu starts from here =====*/
+.unordered {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    list-style: none;
+    font-size: large;
+    padding: 15px;
+    height: 50px;
+    
+}
+.unordered  a{
+    text-decoration: none;
+    color:black;
+}
+
+/*==== navigation menu ends from here =====*/
+
+/*==== first background img start from here =====*/
+.first-back-img{
+    max-height: fit-content;
+    max-height: 100%;
+    height:100% ;
+    width: 100%;
+    background-image:url(./ecom-img/two\ girls.jpg);
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 1px solid white;
+    
+}
+.trending-item{
+    width: 70%;
+    padding: 4% 8%;
+}
+
+.pink-trending{
+    color:rgb(253, 93, 120);
+    font-size: 2.5rem;
+}
+.womens{
+    font-size: 3.5rem;
+    font-weight: bold;
+    margin-top: 5px;
+}
+.starting{
+    margin-top: 15px;
+    color:rgba(100,100,100);
+    font-size: 2.5rem;
+}
+.trending-item p span{
+    font-size:3.5rem ;
+    font-weight: bold;
+}
+.shop-now{
+    background-color:rgb(253, 93, 120);
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius:3px;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+/*==== first background img ends here ====*/
+
+/*==== four div section starts from here ====*/
+.four-vertical-div{
+    display: flex;
+    position: relative;
+    
+}
+.four-div{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content:center;
+    align-items: center;
+    margin: 30px;
+    
+}
+.sub-div{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgb(177, 175, 175);
+    border-radius: 3px;
+    width: 290px;
+}
+.sub-div:hover{
+    box-shadow: 0px 0px 3px rgb(167, 240, 228);
+}
+.sub-div img{
+    height: 60px;
+    width: 60px;
+    border-radius: 3px;
+    margin-right: 5px;
+    padding: 10px;
+    background-color:rgb(177, 175, 175) ;
+}
+.text .dress{
+    display :flex;
+    align-items: center;
+    justify-content:space-between;
+    width: 200px;
+}
+.sub-div .text{
+   padding: 20px 0;
+}
+.text .dress p{
+    font-weight: bold;
+}
+.dress  .nine{
+    font-size: small;
+    color:rgb(177, 175, 175) ;
+}
+.sub-div a{
+    text-decoration: none;
+    color:rgb(253, 93, 120);
+}
+/*===== four div section starts from here =====*/
+
+/*==== category new arrivals trending and top rated section starts from here =====*/
+.aside{
+    width: 25%;
+    height: min-content;
+    position: sticky;
+    top: 0px;
+}
+.category{
+   margin: 30px;
+}
+.aside .category .cate{
+    margin-bottom: 20px;
+    font-size:x-large;
+}
+.clothes img{
+    height: 50px;
+    width: 50px;
+    padding: 10px;
+}
+.category .clothes{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    width:270px ;
+    background-color: white;
+}
+.category .clothes .clothes-text{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width:200px ;
+}
+
+.aside .best-seller{
+    margin: 30px;
+    font-size: 15px;
+    background-color: white;
+    
+}
+.aside .best-seller .best{
+    margin-bottom: 20px;
+    font-size:X-large;
+}
+.four-star{
+    border: 1px solid rgb(177, 175, 175);
+    border-radius:3px ;
+    width: 270px;
+    display: flex;
+    align-items: center;
+    padding:2px;
+    margin-bottom: 20px;
+}
+.four-star-text .five{
+    gap: 3px;
+    font-weight: bold;
+    color: rgb(103, 98, 98);
+}
+.four-star-text .baby{
+    font-weight: bold;
+    font-size: 15px;
+}
+.four-star-text .five del{
+    font-weight: bold;
+    color:rgb(177, 175, 175);
+}
+.four-star:hover{
+    box-shadow: 0px 0px 3px rgb(82, 237, 82);
+}
+ .four-star img{
+height: 60px;
+}
+
+.checked {
+    color: orange;
+}
+
+
+/*==== new arrival verrtical starts from here ====*/
+.three-verticals{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.three-verti-div .new{
+    margin-left:10px ;
+    margin-right: 15px;
+    margin-bottom: 20px;
+    font-size:X-large;
+    border-bottom: 1px solid black;
+}
+.relaxed{
+    display: flex;
+    align-items: center;
+    margin: 15px;
+    border:1px solid rgb(177, 175, 175);
+    border-radius: 3px;
+    
+}
+.relaxed:hover{
+    box-shadow: 0px 0px 3px rgb(82, 237, 82);
+}
+.relaxed-text{
+    font-size:15px;
+}
+.relaxed img{
+    height: 60px;
+}
+.relaxed-text .full{
+    font-weight:bold;
+}
+.relaxed-text .four-five{
+    font-weight: bold;
+    color: rgb(253, 93, 120);
+}
+.relaxed-text .four-five del{
+    font-weight: bold;
+    color:rgb(177, 175, 175) ;
+}
+/* ====shampoo div starts from here ====*/
+
+.deal-para{
+    font-size: x-large;
+    font-weight: bold;
+    border-bottom: 1px solid black;
+    margin:20px 40px;
+}
+.shampoo-main-div{
+    /* width: 100vw; */
+    border: 1px solid rgb(177, 175, 175);
+    border-radius: 3px;
+    padding: 30px;
+    margin:20px 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.shampoo-text{
+    width: 30%;
+    /* padding: 10px; */
+}
+.shampoo-bold{
+    font-weight: bold;
+}
+.lorem{
+    color:rgb(103, 98, 98);
+}
+.one-fifty{
+    font-size: xx-large;
+    font-weight: bold;
+    color:rgb(253, 93, 120);
+}
+.shampoo-text del{
+    margin: 20px;
+    font-size: xx-large;
+    color: rgb(177, 175, 175) ;;
+}
+.shampoo-text button{
+    color: white;
+    font-size: small;
+    font-weight:bold;
+    border: none;
+    border-radius: 3px;
+    padding: 5px 10px;
+    background-color:rgb(253, 93, 120);
+}
+.shampoo-main-div img{
+    width:50% ;
+}
+.hurry-up{
+    display: flex;
+}
+.hurry-up .time{
+    background-color:rgb(177, 175, 175) ;
+    border-radius: 3px;
+    margin: 3px;
+    padding: 5px;
+    height:50px;
+    width: 50px;
+}
+.progress-bar{
+    height: 10px;
+    width: 100%;
+    border-radius: 5px;
+    background-color:rgb(177, 175, 175);
+    padding: 2px;
+}
+.pink{
+    height: 6px;
+    width: 55%;
+    background-color:rgb(253, 93, 120); 
+    border-radius: 5px;
+}
+.already{
+    display: flex;
+    justify-content: space-between;
+}
+
+/*==== new products section starts from here ====*/
+.new-product{
+   margin: 20px;
+    
+}
+.new-product > p{
+    font-size: x-large;
+    font-weight: bold;
+    margin: 20px;
+    margin-top: 40px;
+    border-bottom: 1px solid black;
+}
+.main-jacket{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+}
+.jacket{
+    width: 23%;
+    border: 1px solid rgb(177, 175, 175);
+    border-radius: 3px;
+    margin: 1%;
+    padding: 12px;
+}
+.jacket:hover{
+    box-shadow: 0px 0px 3px rgb(109, 109, 109);
+}
+.jacket img{
+    width: 100%;
+}
+.jacket-text .jack{
+    color:rgb(253, 93, 120);
+    font-size: large;
+}
+.jacket-text .doller{
+    font-weight: bold;
+    font-size: large;
+}
+.jacket-text .doller del{
+    color:rgb(177, 175, 175) ;
+}
+
+/*==== three div section starts here =====*/
+.three-div{
+    width: 100%;
+    margin: 20px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+.testimonial> p{
+    text-align: start;
+    padding:5px ;
+    font-weight: bold;
+    font-size: x-large;
+    border-bottom: 1px solid rgb(105, 104, 104);
+    
+}
+.testimonial{
+    text-align: center;
+    border: 1px solid rgb(177, 175, 175);
+    border-radius: 3px;
+    width: 20%;
+    height:100%;
+    margin: 20px;
+    
+}
+.circle-img{
+    padding: 15px;
+}
+.circle-img img{
+   height: 100px;
+   border-radius: 50%;
+   margin: 20px;
+
+}
+.circle-img .alan{
+    font-size: x-large;
+    font-weight: bold;
+}
+.circle-img i{
+    margin:25px ;
+}
+.summer-collction-main{
+    width: 50%;
+    border-radius: 3px;
+    background-image: url(./ecom-img/2nd\ background.jpg);
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 10px;
+}
+.summer-collction-main .twenty{
+    background-color: white;
+    opacity: 0.7;
+    text-align: center;
+    margin: 20% auto;
+    width: 50%;
+    padding: 6%;
+    
+}
+.twenty .discount{
+    color: white;
+    background-color: black;
+    width: 50%;
+    margin: 0 auto;
+    padding: 10px;
+    border-radius: 3px;
+    
+}
+.twenty .summmer{
+    font-size: x-large;
+    font-weight: bold;
+    color:black;
+}
+.twenty a{
+    font-weight: bold;
+    color:rgb(105, 104, 104);
+    text-decoration: none; 
+}
+.our-services{
+    border: 1px solid rgb(177, 175, 175);
+    border-radius: 3px;
+    width: 20%;
+    margin: 10px;
+}
+.our-services >p{
+    padding: 5px;
+    font-size: x-large;
+    font-weight: bold;
+    border-bottom: 1px solid rgb(105, 104, 104);
+}
+.worldwide{
+    height: 100%;
+}
+.worldwide .world{
+    display: flex;
+    margin: 8px;
+    
+}
+.worldwide-text .delivery{
+    font-size: 18px;
+    font-weight: bold;
+    color:rgb(105, 104, 104) ;
+}
+.worldwide-text .for{
+    color: rgb(105, 104, 104);
+}
+/*===== new horizontal div section starts from here =====*/
+.horizontal-div{
+    display: flex;
+    margin: 20px;
+}
+.horizontal-div .girls{
+    width: 100%;
+    /* justify-content: space-evenly; */
+    /* flex-wrap: wrap; */
+}
+.girls{
+    margin: 20px;
+}
+.girls img{
+    width: 100%;
+    border-radius: 3px;
+}
+.girls-text .fashion{
+    color: rgb(253, 93, 120);
+}
+.girls-text .KPIs{
+    font-weight: bold;
+}
+.girls-text .by{
+    color:rgb(103, 98, 98);
+}
+/*===== footer starts from here ====*/
+footer{
+    background-color: black;
+}
+.brand-directory{
+    border-bottom: 1px solid rgb(151, 150, 150);
+    padding:5%;
+}
+.brand-directory > p{
+    color: rgb(253, 93, 120);
+    font-weight: bold;
+}
+.list {
+    display: flex;
+    
+}
+.list li{
+    display: inline;
+    margin-top: 15px ;
+    color: white;
+    font-size: small;
+    list-style-type: none;
+}
+.list li a{
+    color: rgb(161, 150, 150);
+    text-decoration: none;
+    
+}
+.popular-category{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+    align-items: center;
+    border-bottom: 1px solid rgb(211, 209, 209);
+}
+.popular-one{
+    display: none;
+}
+.popular{
+    /* padding:5% ; */
+    margin: 20px;
+}
+.popular .pop{
+    color: white;
+    font-weight: bold;
+}
+.popular ul li a{
+    list-style-type:circle;
+    text-decoration: none;
+    font-size: small;
+    color: rgb(161, 150, 150);
+}
+footer .cards {
+text-align: center;
+padding: 40px;
+}
+.cards p{
+    color: white;
+    font-size: small;
+}
+.nav-icons{
+    display: none;
+    background-color: white;
+    border: 1px solid black;
+    text-align: center;
+    border-radius:5px 5px 0px 0px ;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0px 20px;
+}
+
+/*===== media query starts from here ======*/
+
+@media screen and (max-width:1100px){
+    .free-shipping  .first-icon, header .second-icon , .aside{
+    display: none;
+    }
+    
+    .three-verti-div{
+        width: 42%;
+    }
+}
+
+@media screen and (max-width:821px){
+    .unordered{
+        display: none;
+    }
+    .first-back-img{
+        width: 100vw;
+        background-size: contain;
+        margin: 2% 0%;
+    }
+    .trending-item{
+        width: 50vw;
+    }
+    .trending-item .pink-trending{
+        font-size: 1rem;
+    }
+    .trending-item .womens{
+        font-size:2rem;
+    }
+    .trending-item .starting{
+        font-size: 1.5rem;
+    }
+    .shampoo-main-div{
+        width: 100vw;
+    }
+    .jacket{
+        width: 45%;
+    }
+    .three-div{
+        flex-wrap: wrap;
+    }
+    .testimonial{
+        width: 100%;
+    }
+    .summer-collction-main{
+       width: 100%;
+    }
+    .worldwide{
+        width: 100%;
+        padding: 4%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        
+    }
+    .nav-icons{
+        width: 75%;
+        display: block;
+        display: flex;
+        justify-content: space-evenly;
+        position: fixed;
+        bottom: 0px;
+        left: 50px;
+        right: 50px;
+    }
+    .our-services{
+        width: 100%;
+    }
+    .shampoo-main-div{
+        width: 100vw;
+    }
+    .deal{
+        width: 100%;
+    }
+    .main-jacket{
+        width: 100%;
+    }
+    .one{
+        display: none;
+    }
+    .popular-one{
+        display: block;
+        position: relative;
+        bottom: 40px;
+    }
+    
+}   
+
+
